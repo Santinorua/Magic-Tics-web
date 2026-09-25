@@ -1,0 +1,63 @@
+.trick-card {
+  min-height: 280px;
+  position: relative;
+}
+
+.trick-card::after {
+  background: radial-gradient(
+    circle,
+    var(--dorado-suave),
+    var(--transparente) 65%
+  );
+  bottom: 0;
+  content: "";
+  height: 110px;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  width: 160px;
+}
+
+.linea-superior-truco {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.numero-truco {
+  align-items: center;
+  background: var(--dorado-suave);
+  border: 1px solid var(--dorado-oscuro);
+  color: var(--dorado-claro);
+  display: flex;
+  font-family: "Cinzel", serif;
+  font-size: 15px;
+  height: 34px;
+  justify-content: center;
+  padding: 0;
+  width: 40px;
+}
+
+.icono-truco {
+  height: 32px;
+  object-fit: contain;
+  width: 32px;
+}
+
+.trick-card h3 {
+  font-size: 17px;
+}
+
+.trick-card ul {
+  border-top: 1px solid var(--borde-dorado);
+  color: var(--dorado-claro);
+  font-size: 12px;
+  list-style: none;
+  margin: 25px 0 0;
+  padding: 16px 0 0;
+}
+
+.trick-card li + li {
+  margin-top: 5px;
+}
