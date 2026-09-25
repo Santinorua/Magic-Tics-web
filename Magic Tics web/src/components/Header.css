@@ -1,7 +1,7 @@
 .site-header {
   align-items: center;
   backdrop-filter: blur(10px);
-  background: var(--fondo-encabezado);
+  background: var(--negro-fondo);
   border-bottom: 1px solid var(--borde);
   display: flex;
   height: 66px;

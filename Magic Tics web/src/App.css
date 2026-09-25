@@ -19,7 +19,6 @@
   --sombra-dorada: rgba(201, 147, 32, 0.3);
   --panel: rgba(11, 11, 10, 0.72);
   --panel-hover: rgba(19, 17, 13, 0.86);
-  --fondo-encabezado: rgba(5, 5, 5, 0.94);
 }
 * {
   box-sizing: border-box;
