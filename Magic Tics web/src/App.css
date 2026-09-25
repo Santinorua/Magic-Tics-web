@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Montserrat:wght@400;500;600&display=swap");
 :root {
-  --negro-fondo: #050505;
+  --negro-fondo: #000000;
   --negro-sombra: rgba(0, 0, 0, 0.8);
   --negro-sombra-externa: rgba(0, 0, 0, 0.9);
   --negro-suave: rgba(0, 0, 0, 0.12);

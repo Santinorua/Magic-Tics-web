@@ -70,7 +70,7 @@ function App() {
               key={tarjeta.titulo}
               {...tarjeta}
               link={tarjeta.link ? {
-                href: 'https://bazardemagia.com/contacto/',
+                href: 'https://bazardemagia.com/Contacto/info',
                 label: tarjeta.link,
               } : undefined}
             />)}
